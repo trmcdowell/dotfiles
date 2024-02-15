@@ -1,4 +1,5 @@
 # dotfiles
+[reference video](https://www.youtube.com/watch?v=y6XCebnB9gs)
 
 ## On a new machine:
 
