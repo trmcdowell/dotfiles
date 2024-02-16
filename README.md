@@ -1,4 +1,5 @@
 # dotfiles
+My dotfiles repository.<br>
 May want to replace [stow](https://www.gnu.org/software/stow/) with [chezmoi](https://www.chezmoi.io/) at some point in the future.
 
 ## dotfile dependencies
