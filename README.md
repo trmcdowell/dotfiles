@@ -10,21 +10,16 @@ May want to replace [stow](https://www.gnu.org/software/stow/) with [chezmoi](ht
 
 ## Setup on new machine
 
-1. Install git<br>
+1. Install git and stow<br>
 ```
-sudo pacman -S git
-```
-
-2. Install dotfile dependencies linked above.
-
-3. Install stow<br>
-```
-sudo pacman -S stow
+sudo pacman -S git stow
 ```
 
-4. Clone this repo in home directory
+2. Install dotfile dependencies linked above
 
-5. In ~/dotfiles:<br>
+3. Clone this repo in home directory
+
+4. In ~/dotfiles:<br>
 ```
 stow .
 ```
