@@ -1,9 +1,5 @@
 # dotfiles
-[reference video](https://www.youtube.com/watch?v=y6XCebnB9gs)
-
 May want to replace [stow](https://www.gnu.org/software/stow/) with [chezmoi](https://www.chezmoi.io/) at some point in the future.
-
-
 
 ## dotfile dependencies
 - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
