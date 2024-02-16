@@ -107,7 +107,7 @@ alias vim="nvim"
 alias ll="ls -l"
 alias ls="ls --color=auto"
 
-alias nvimcfg="z ~/.config/nvim"
+alias nvimcfg="nvim ~/.config/nvim"
 alias p10kcfg="nvim ~/.p10k.zsh"
 alias zshcfg="nvim ~/.zshrc"
 
