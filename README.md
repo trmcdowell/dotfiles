@@ -5,7 +5,6 @@ May want to replace [stow](https://www.gnu.org/software/stow/) with [chezmoi](ht
 ## dotfile dependencies
 - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
-- [zoxide](https://github.com/ajeetdsouza/zoxide)
 - Any nerd font
 
 ## Setup on new machine
