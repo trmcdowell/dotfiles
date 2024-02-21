@@ -107,6 +107,7 @@ source $ZSH/oh-my-zsh.sh
 alias cd="z"
 alias cdi="zi"
 alias cls="clear"
+alias grep="rg"
 alias ll="ls -l --color=auto"
 alias ls="ls --color=auto"
 alias mkdir="mkdir -p"
