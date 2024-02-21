@@ -102,14 +102,18 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-alias vim="nvim"
-alias ll="ls -l"
-alias ls="ls --color=auto"
+
+# CLI tools
 alias cd="z"
 alias cdi="zi"
+alias cls="clear"
+alias ll="ls -l --color=auto"
+alias ls="ls --color=auto"
+alias mkdir="mkdir -p"
+alias tree="tree -I 'target'" # use | to add more directories to ignore
+alias vim="nvim"
 
+# Configs
 alias nvimcfg="nvim ~/.config/nvim"
 alias p10kcfg="nvim ~/.p10k.zsh"
 alias zshcfg="nvim ~/.zshrc"
