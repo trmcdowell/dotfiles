@@ -118,6 +118,7 @@ alias vim="nvim"
 alias nvimcfg="nvim ~/.config/nvim"
 alias p10kcfg="nvim ~/.p10k.zsh"
 alias zshcfg="nvim ~/.zshrc"
+alias displaycfg="arandr"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
