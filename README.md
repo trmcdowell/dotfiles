@@ -17,7 +17,7 @@ sudo pacman -S git stow
 
 2. Install dotfile dependencies linked above
 
-3. Clone this repo in home directory
+3. Clone this repo into home directory
 
 4. In ~/dotfiles:<br>
 ```
