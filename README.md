@@ -5,6 +5,7 @@ My dotfiles repository.<br>
 ## dotfile dependencies
 - Any mono nerd font (I usually use JetBrainsMono Nerd Font)
 - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
+- [powerlevel10k zsh theme](https://github.com/romkatv/powerlevel10k)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 
