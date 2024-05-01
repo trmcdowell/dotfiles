@@ -4,9 +4,9 @@ My dotfiles repository.<br>
 
 ## Dependencies
 - Any mono nerd font (I usually use JetBrainsMono Nerd Font)
+- [neovim](https://github.com/neovim/neovim)
 - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 - [powerlevel10k zsh theme](https://github.com/romkatv/powerlevel10k)
-- [neovim](https://github.com/neovim/neovim)
 
 ## Install
 
