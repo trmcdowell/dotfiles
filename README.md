@@ -6,6 +6,7 @@ My dotfiles repository.<br>
 - Any mono nerd font (I usually use JetBrainsMono Nerd Font)
 - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 - [powerlevel10k zsh theme](https://github.com/romkatv/powerlevel10k)
+- [neovim](https://github.com/neovim/neovim)
 
 ## Install
 
