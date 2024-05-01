@@ -7,7 +7,7 @@ My dotfiles repository.<br>
 - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 - [powerlevel10k zsh theme](https://github.com/romkatv/powerlevel10k)
 
-## Setup on new machine
+## Install
 
 1. Install git and stow<br>
 ```
