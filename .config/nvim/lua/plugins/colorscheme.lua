@@ -35,6 +35,16 @@ return {
       },
     },
   },
+  -- add catpuccin
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    lazy = false,
+    opts = {
+      flavour = "mocha", -- latte, frappe, macchiato, mocha, or auto
+      transparent_background = true,
+    },
+  },
   -- configure lazyvim to load tokyonight
   {
     "LazyVim/LazyVim",
