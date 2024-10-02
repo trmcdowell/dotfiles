@@ -2,6 +2,7 @@ window {
 margin: 0px;
 border: 1px solid #00FFFF;
 background-color: #282a36;
+border-radius: 10px;
 }
 
 #input {
@@ -9,6 +10,7 @@ margin: 5px;
 border: none;
 color: #f8f8f2;
 background-color: #44475a;
+font-family: "JetBrainsMono Nerd Font Mono"
 }
 
 #inner-box {
@@ -32,6 +34,7 @@ border: none;
 margin: 5px;
 border: none;
 color: #f8f8f2;
+font-family: "JetBrainsMono Nerd Font Mono"
 } 
 
 #entry.activatable #text {
@@ -44,6 +47,7 @@ color: #f8f8f2;
 
 #entry:selected {
 background-color: #44475a;
+border-radius: 5px;
 }
 
 #entry:selected #text {

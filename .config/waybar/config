@@ -21,7 +21,7 @@
     // "idle_inhibitor",
     "pulseaudio",
     "network",
-    // "cpu",
+    //"cpu",
     // "memory",
     // "temperature",
     // "backlight",
@@ -65,8 +65,9 @@
     "spacing": 10
   },
   "clock": {
-    // "timezone": "America/New_York",
+    "timezone": "America/Central",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    //"format": "{:%Y-%m-%d %H:%M}",
     "format-alt": "{:%Y-%m-%d}"
   },
   "cpu": {
