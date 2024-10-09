@@ -14,22 +14,21 @@
     "custom/media",
   ],
   "modules-center": [
-   
+    "clock"
   ],
   "modules-right": [
+    "cpu",
     // "mpd",
     // "idle_inhibitor",
     "pulseaudio",
     "network",
-    //"cpu",
     // "memory",
     // "temperature",
     // "backlight",
     // "keyboard-state",
     // "sway/language",
     "battery",
-    "battery#bat2",
-    "clock"
+    "battery#bat2"
     // "tray"
   ],
   // Modules configuration
@@ -67,11 +66,11 @@
   "clock": {
     "timezone": "America/Central",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    //"format": "{:%Y-%m-%d %H:%M}",
-    "format-alt": "{:%Y-%m-%d}"
+    "format": "   {:%a %b %e - %I:%M %p}",
+    "format-alt": "   {:%H:%M}",
   },
   "cpu": {
-    "format": "{usage}% ",
+    "format": "   {usage}%",
     "tooltip": false
   },
   "memory": {
@@ -113,7 +112,7 @@
     "format": "<span font='12'>{icon}</span> {capacity}%",
     "format-full": "<span font='12'>{icon}</span> {capacity}%",
     "format-charging": "<span font='12'>󰂄</span>  {capacity}%",
-    "format-plugged": "<span font='12'></span>  {capacity}%",
+    "format-plugged": "<span font='12'>󰂄</span>  {capacity}%",
     "format-warning": "<span font='12' color'yellow'>󰁼</span>  {capacity}%",
     "format-critical": "<span font='12' color='red'>󰁼</span>  {capacity}%",
     
@@ -185,5 +184,5 @@
     "escape": true,
     "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
     // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
-  }
+  },
 }
