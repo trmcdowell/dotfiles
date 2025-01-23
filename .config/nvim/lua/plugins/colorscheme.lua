@@ -45,7 +45,7 @@ return {
       transparent_background = true,
     },
   },
-  -- configure lazyvim to load tokyonight
+  -- load chosen theme
   {
     "LazyVim/LazyVim",
     opts = {

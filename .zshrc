@@ -14,8 +14,10 @@ export PATH=$HOME/bin:/usr/local/bin:$FLYCTL_INSTALL/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# Env variable for work db info
-export PGSERVICE=thunder
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
