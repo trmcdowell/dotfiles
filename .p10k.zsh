@@ -185,7 +185,7 @@
   # OS identifier color.
   typeset -g POWERLEVEL9K_OS_ICON_FOREGROUND=45
   # Custom icon.
-  typeset -g POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION=''
+  # typeset -g POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION=''
 
   ################################[ prompt_char: prompt symbol ]################################
   # Blue prompt symbol if the last command succeeded.
@@ -336,7 +336,7 @@
   # back to POWERLEVEL9K_DIR_FOREGROUND.
   #
   # HOME ICON / FOLDER ICON TOGGLE. COMMENTED OUT = ICON ON
-  # typeset -g POWERLEVEL9K_DIR_CLASSES=()
+  typeset -g POWERLEVEL9K_DIR_CLASSES=()
 
   # Custom prefix.
   # typeset -g POWERLEVEL9K_DIR_PREFIX='%fin '
