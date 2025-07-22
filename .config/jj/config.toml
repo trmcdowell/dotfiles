@@ -1,0 +1,37 @@
+"$schema" = 'https://jj-vcs.github.io/jj/prerelease/config-schema.json'
+
+[aliases]
+# Fetch from all remotes
+pull = ["git", "fetch", "--all-remotes"]
+
+# Shorter push
+push = ["git", "push"]
+
+# Rebases all commits not in `trunk()` that are mutable onto `trunk()`
+rebase-all = ["rebase", "-s", "all:roots(trunk()..mutable())", "-d", "trunk()"]
+
+# Moves the closest bookmark to the closest commit with a description that is
+# either not empty or a merge
+tug = [
+  "bookmark",
+  "move",
+  "--from",
+  "closest_bookmark(@)",
+  "--to",
+  "closest_pushable(@)",
+]
+
+[fix.tools.rustfmt]
+command = ["rustfmt", "--emit", "stdout"]
+patterns = ["glob:**/*.rs"]
+
+[ui]
+default-command = "log"
+diff-editor = ":builtin"
+editor = "nvim"
+# Keep log output in terminal history
+pager = "less -FRX"
+
+[user]
+name = "omni-tom"
+email = "tom@omnidigitalgroup.com"
