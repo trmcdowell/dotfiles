@@ -124,9 +124,7 @@ alias vim="nvim"
 
 # Config Shortcuts
 alias nvimcfg="nvim ~/.config/nvim"
-alias p10kcfg="nvim ~/.p10k.zsh"
 alias zshcfg="nvim ~/.zshrc"
-alias displaycfg="arandr"
 
 #The following lines were added by compinstall
 zstyle :compinstall filename '/home/tom/.zshrc'
