@@ -82,7 +82,6 @@ setopt appendhistory
 plugins=(
   rust
   zoxide
-  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -117,9 +116,9 @@ alias cd="z"
 alias cdi="zi"
 alias cls="clear"
 alias grep="rg"
-alias ll="eza -l"
-alias l="eza -la"
-alias ls="eza"
+alias ll="eza -l --icons"
+alias l="eza -la --icons"
+alias ls="eza --icons"
 alias mkdir="mkdir -p"
 alias tree="tree -I 'target'" # use | to add more directories to ignore
 alias vim="nvim"
