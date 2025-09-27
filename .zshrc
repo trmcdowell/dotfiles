@@ -4,6 +4,10 @@ export FLYCTL_INSTALL="/home/tom/.fly"
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$FLYCTL_INSTALL/bin:$PATH
 
+
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
