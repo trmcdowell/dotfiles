@@ -1,0 +1,7 @@
+{
+  "rust-analyzer.cargo.extraArgs": [
+    "--target-dir",
+    "target/rust-analyzer"
+  ],
+  "rust-analyzer.cargo.allFeatures": false
+}

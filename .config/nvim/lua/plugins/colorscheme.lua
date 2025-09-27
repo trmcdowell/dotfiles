@@ -18,6 +18,7 @@ return {
     lazy = false,
     opts = {
       transparent_mode = true,
+      contrast = "hard",
     },
   },
   -- add rosepine
