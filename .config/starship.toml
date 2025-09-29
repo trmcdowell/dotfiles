@@ -4,7 +4,6 @@ format = "[$os$directory$git_branch$git_status]($style)$character"
 
 [character]
 error_symbol = "[✗](bold red)"
-#success_symbol = "[❯](bold cyan)"
 success_symbol = "[>](bold cyan)"
 
 [os]
@@ -14,12 +13,15 @@ disabled = false
 
 [os.symbols]
 Arch = "󰣇 "
+Macos = " "
 
 [directory]
-truncation_length = 2
+truncate_to_repo = false
+truncation_length = 3
 truncation_symbol = "…/"
+before_repo_root_style = "bold cyan"
 repo_root_style = "bold cyan"
-repo_root_format = "[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) "
+repo_root_format = "[$before_root_path]($before_repo_root_style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) "
 
 [git_branch]
 format = "[$branch]($style) "
