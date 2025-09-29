@@ -116,12 +116,13 @@ alias cd="z"
 alias cdi="zi"
 alias cls="clear"
 alias grep="rg"
-alias ll="eza -l --icons"
 alias l="eza -la --icons"
+alias ll="eza -l --icons"
 alias ls="eza --icons"
 alias mkdir="mkdir -p"
 alias tree="tree -I 'target'" # use | to add more directories to ignore
 alias vim="nvim"
+alias wifi="impala"
 
 # Config Shortcuts
 alias nvimcfg="nvim ~/.config/nvim"
