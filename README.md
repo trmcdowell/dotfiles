@@ -6,9 +6,9 @@ My dotfiles repository.<br>
 ## Dependencies
 
 - Any mono nerd font (I usually use JetBrainsMono Nerd Font)
-- [starship](https://github.com/starship/starship)
+- [eza](https://github.com/eza-community/eza)
 - [neovim](https://github.com/neovim/neovim)
-- [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
+- [starship](https://github.com/starship/starship)
 
 ## Install
 
@@ -18,11 +18,11 @@ My dotfiles repository.<br>
 sudo pacman -S git stow
 ```
 
-2. Install dotfile dependencies linked above
+1. Install dotfile dependencies linked above
 
-3. Clone this repo into home directory
+2. Clone this repo into home directory
 
-4. In ~/dotfiles:<br>
+3. In ~/dotfiles:<br>
 
 ```
 stow .
